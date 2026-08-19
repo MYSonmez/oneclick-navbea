@@ -29,6 +29,13 @@ Thumbs.db
 .idea/
 .vscode/
 
+# local AI/agent workspace configuration
+.agents/
+.claude/
+.codex/
+AGENTS.md
+CLAUDE.md
+
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
@@ -36,3 +43,8 @@ next-env.d.ts
 # local scratch artifacts
 tmp/
 .cache/
+
+# local product research and design-reference archives
+# Runtime assets used by the application remain under public/.
+navbea/
+oneclick/
